@@ -1,0 +1,21 @@
+To compile
+make 
+
+To run
+./warmup2 [-n mum] [-r r] [-B B] [-P P] [-lambda lambda] [-mu mu] [-t tsfile]
+
+Bugs:
+Crtl-C has not been handled. No statistics will be generated on pressing Ctrl-C during execution of a large n.
+Standard deviation for some scripts generats a Nan.
+
+
+
+References and credits
+
+ http://linuxprograms.wordpress.com/2012/06/22/c-getopt_long_only-example-accessing-command-line-arguments/
+ http://stackoverflow.com/questions/4160273/strtok-with-space-delimiter
+ http://www.ccplusplus.com/2011/11/gettimeofday-example.html
+ http://www.yolinux.com/TUTORIALS/LinuxTutorialPosixThreads.html
+ http://publib.boulder.ibm.com/iseries/v5r2/ic2924/index.htm?info/apis/users_78.htm
+ http://publib.boulder.ibm.com/infocenter/iseries/v5r3/index.jsp?topic=%2Fapis%2Fusers_39.htm
+ http://www.thegeekstuff.com/2012/05/c-mutex-examples/
