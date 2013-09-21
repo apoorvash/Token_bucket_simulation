@@ -4,10 +4,6 @@ make
 To run
 ./warmup2 [-n mum] [-r r] [-B B] [-P P] [-lambda lambda] [-mu mu] [-t tsfile]
 
-Bugs:
-Crtl-C has not been handled. No statistics will be generated on pressing Ctrl-C during execution of a large n.
-Standard deviation for some scripts generats a Nan.
-
 
 
 References and credits
